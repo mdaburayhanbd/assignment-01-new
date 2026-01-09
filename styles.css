@@ -135,3 +135,67 @@ header{
   border-radius: 8px;
 
 }
+.notes-section {
+  padding: 80px 0 ;
+  text-align: center;
+}
+
+.notes-section h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #627382;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: 390px 390px 390px 380px;
+  gap: 40px;
+  padding-left: 40px;
+}
+.note-card {
+  background: #fff;
+  color: #001931;
+  padding: 80px 25px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px #00000026;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background: #F95555;
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+.note-card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.note-card p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  align-items: center;
+}
+.brain-section {
+  padding: 100px 40px;
+  background: #ffffff;
+}
