@@ -296,3 +296,61 @@ header{
   color: #627382;
   line-height: 20px;
 }
+.site-footer {
+  margin-top: 60px;
+  background-color:  #001931;
+  padding: 70px 40px 30px;
+  color: #ffffff;
+}
+.footer-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-brand img {
+  height: 46px;
+  display: block;
+}
+.footer-social {
+  text-align: right;
+}
+.footer-social p {
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+.social-icons a {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #041629;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+}
+.footer-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.18);
+  margin: 30px 0 22px;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #e2e8f0;
+}
+
+
