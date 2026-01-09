@@ -199,3 +199,69 @@ header{
   padding: 100px 40px;
   background: #ffffff;
 }
+.brain-section {
+  padding: 100px 40px;
+  background: #ffffff;
+}
+
+.brain-container {
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 520px 520px;
+  gap: 80px;
+  align-items: center;
+  
+}
+.brain-image {
+  display: flex;
+  justify-content: center;
+}
+.brain-image img {
+  width: 600px;
+  height: auto;
+  border-radius: 12px;
+}
+.brain-content .label {
+  color: #30B868;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.brain-content h2 {
+  font-size: 48px;
+  margin: 16px 0;
+  color: #001931;
+  margin-left: 20px;
+}
+
+.brain-content p {
+  color: #627382;
+  font-size: 16px;
+  max-width: 480px;
+  line-height: 20px;
+  margin-bottom:30px;
+  margin-left: 20px;
+}
+
+.brain-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brain-content li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 16px;
+  color: #001931;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.brain-content li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+}
