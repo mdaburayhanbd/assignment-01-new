@@ -158,9 +158,9 @@ header{
 
 .notes-grid {
   display: grid;
-  grid-template-columns: 390px 390px 390px 380px;
+  grid-template-columns: 390px 390px 390px 390px;
+  justify-content: center;
   gap: 40px;
-  padding-left: 40px;
 }
 .note-card {
   background: #fff;
