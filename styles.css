@@ -265,3 +265,34 @@ header{
   position: absolute;
   left: 0;
 }
+.early-access-section {
+  padding: 50px 40px;
+  background: #ffffff;
+}
+
+.early-access-box {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #F7F6F2;
+  border-radius: 12px;
+  padding: 80px 40px;
+  text-align: center;
+}
+.early-access-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.note {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
