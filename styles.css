@@ -57,3 +57,81 @@ header{
  nav .menu .btn{
     margin-left: 240px;
  }
+ .hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 900px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+.img {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #469165;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  margin-bottom: 20px;
+}
+.hero-content h1 span {
+  color: #469165;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto 32px;
+  line-height: 32px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn.secondary {
+  background-color: transparent ;
+  border: 2px solid ;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background: #469165;
+  border: none;
+  border-radius: 8px;
+
+}
